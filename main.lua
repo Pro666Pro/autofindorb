@@ -10,6 +10,13 @@ if game.Players.LocalPlayer.Character:FindFirstChild("entered") == nil then
     until game.Players.LocalPlayer.Character:FindFirstChild("entered")
 end
 
+for i, v in ipairs(workspace.Arena.island5.Slapples:GetDescendants()) do
+                if v.Name == "Glove" and v:FindFirstChildWhichIsA("TouchTransmitter") and FarmSlapples == true then
+                    firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v, 0)
+        firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v, 1)
+                end
+            end
+
 if game.Workspace:FindFirstChild("SiphonOrb") then
 for i,v in pairs(game.Workspace:GetChildren()) do
                     if v.Name == "SiphonOrb" and FarmSiphon == true then
