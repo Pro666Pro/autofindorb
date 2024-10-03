@@ -17,13 +17,11 @@ for i, v in ipairs(workspace.Arena.island5.Slapples:GetDescendants()) do
                 end
             end
 
-for i,v in pairs(game.Workspace:GetChildren()) do
-                    if v.Name == "JetOrb" or v.Name == "SiphonOrb" or v.Name == "HonorOrb" or v.Name == "PhaseOrb" or v.Name == "GlitchOrb" or v.Name == "Toolbox" then
-
 if game.Workspace:FindFirstChild("SiphonOrb") then
 for i,v in pairs(game.Workspace:GetChildren()) do
                     if v.Name == "SiphonOrb" and FarmSiphon == true then
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Siphon Orb",Text = "Siphon Orb Detected" ,Duration = 3600, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "oh nice"})
+wait(360000)
                     end
                 end
                 end
@@ -32,6 +30,7 @@ if game.Workspace:FindFirstChild("HonorOrb") then
 for i,v in pairs(game.Workspace:GetChildren()) do
                     if v.Name == "HonorOrb" and FarmHonor == true then
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Honor Orb",Text = "Honor Orb Detected" ,Duration = 3600, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "oh nice"})
+wait(360000)
                     end
                 end
                 end
@@ -39,18 +38,21 @@ game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Honor Orb",Te
 for i,v in pairs(game.Workspace:GetChildren()) do
                     if v.Name == "PhaseOrb" and FarmPhase == true then
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Phase Orb",Text = "Phase Orb Detected" ,Duration = 3600, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "oh nice"})
+wait(360000)
                     end
                 end
 
 for i,v in pairs(game.Workspace:GetChildren()) do
                     if v.Name == "JetOrb" and FarmJet == true then
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Jet Orb",Text = "Jet Orb Detected" ,Duration = 3600, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "oh nice"})
+wait(360000)
                     end
                 end
 
 for i,v in pairs(game.Workspace:GetChildren()) do
                     if v.Name == "GlitchOrb" and FarmGlitch == true then
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Glitch Orb",Text = "Glitch Orb Detected" ,Duration = 3600, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "oh nice"})
+wait(360000)
                     end
                 end
 
@@ -58,11 +60,9 @@ if game.Workspace:FindFirstChild("Toolbox") then
 for i,v in pairs(game.Workspace:GetDescendants()) do
                     if v.Name == "Toolbox" and v:FindFirstChild("ClickDetector") and FarmToolbox == true then
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Toolbox",Text = "Toolbox Detected" ,Duration = 3600, Icon = "rbxthumb://type=Asset&id=9649923610&w=150&h=150",Button1 = "oh nice"})
+wait(360000)
                     end
                 end
             end
 
-                    else
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/serverhop/main/main.lua'))()
-                    end
-                end
